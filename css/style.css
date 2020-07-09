@@ -1,0 +1,52 @@
+.masthead {
+  height: 42vh;
+  min-height: 600px;
+  background-image: url('../images/mainbg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 60px;
+}
+
+li.nav-item {font-weight: bold; font-size: 1.1em}
+a.navbar-brand{font-weight: bold; font-size: 1.4em}
+.navbar-light .navbar-nav .nav-link {color: black;}
+button.btn{color:black; border-color: black}
+.btn:hover {
+    color: black;
+    background-color:#ffeaec;
+    border-color: #ffeaec;}
+
+
+.post-heading{padding:150px 0 150px; font-size:20px;font-style:italic;font-family:Lora,'Times New Roman',serif}
+.post-heading h1{font-size:50px;font-weight:bold;}
+.post-heading .subheading{line-height:1.1;display:block}
+.post-heading .subheading{font-size:24px;font-weight:600;margin:10px 0 30px;font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif}
+
+
+article {font-size: 1.2em}
+blockquote {
+    font-style: italic;
+    color: #868e96;
+    font-family: Lora,'Times New Roman',serif;
+}
+p {
+    line-height: 1.5;
+    margin: 30px 0;
+}
+
+.caption {
+    font-size: 14px;
+    font-style: italic;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+img {
+  display:block;
+  margin:auto;
+}
